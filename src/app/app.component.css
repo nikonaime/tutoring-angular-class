@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #2a9d8f;
+}
+.passGen{
+  font-family: 'Indie Flower', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #e9c46a;
+  padding: 25px;
+  border-radius: 5px;
+}
+.passGen input{
+ text-decoration: none;
+}
+

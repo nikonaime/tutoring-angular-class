@@ -1,0 +1,16 @@
+<section>
+  <div class="passGen">
+    <h1>Generate Password</h1>
+    <input (input)="onChangeLength($event.target.value)" type="text" name="" id="" />
+    <label for="letters">Use Letters</label>
+    <input (change)="onChangeUseLetters()" type="checkbox" name="letters" id="" />
+    <label for="numbers">Use Numbers</label>
+    <input (change)="onChangeUseNumbers()" type="checkbox" name="numbers" id="" />
+    <label for="symbols">Use Symbols</label>
+    <input (change)="onChangeUseSymbols()" type="checkbox" name="symbols" id="" />
+    <br>
+    <button (click)="onButtonClicked()">Generate</button>
+    <label for="generated">Your password</label>
+    <input id="gener" type="text" name="generated" id="" [value]="password" />
+  </div>
+</section>
